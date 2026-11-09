@@ -84,29 +84,29 @@ Ringkasan:
 
 Setelah tiga produk ditambahkan, ketiganya tampil pada tabel lengkap dengan kode, nama, kategori, dan harga. Pesan hijau "Produk PR003 berhasil ditambahkan." muncul setelah produk terakhir disimpan.
 
-![Tiga produk pada tabel](GANTI-NAMA-FILE-1.png)
+![Tiga produk pada tabel](NAMA-FILE-1.png)
 
 ### 2. Pencarian menampilkan produk yang sesuai
 
 Kata kunci `teh tawar` diketik pada kolom pencarian lalu tombol **Cari** ditekan. Tabel hanya menampilkan PR003 (teh tawar), sedangkan produk lain disaring. Tombol **Reset** mengembalikan seluruh produk.
 
-![Hasil pencarian teh tawar](GANTI-NAMA-FILE-2.png)
+![Hasil pencarian teh tawar](NAMA-FILE-2.png)
 
 ### 3. Tombol Lihat Detail menampilkan produk yang dipilih
 
 Baris PR002 (mie ayam) dipilih pada tabel, lalu tombol **Lihat Detail** ditekan. Halaman detail menampilkan data objek yang dipilih: kode PR002, nama mie ayam, kategori Makanan, dan harga Rp12.000. Tombol **Kembali ke Daftar** membawa pengguna kembali ke tabel.
 
-![Halaman detail produk](GANTI-NAMA-FILE-3.png)
+![Halaman detail produk](NAMA-FILE-3.png)
 
 ### 4. Nama kosong dan harga tidak valid ditolak
 
 **a. Nama kosong.** Kolom nama dikosongkan dan harga diisi `10000`, lalu **Tambah Produk** ditekan. Produk tidak disimpan dan muncul pesan merah "Nama produk wajib diisi." Tabel tetap berisi tiga produk.
 
-![Nama kosong ditolak](GANTI-NAMA-FILE-4.png)
+![Nama kosong ditolak](NAMA-FILE-4.png)
 
 **b. Harga tidak valid.** Harga yang bukan bilangan bulat (misalnya `abc`) menghasilkan pesan "Harga harus berupa bilangan bulat (contoh: 15000)." Harga `0` atau negatif menghasilkan pesan "Harga harus lebih dari nol." Pada kedua kasus produk tidak disimpan.
 
-![Harga tidak valid ditolak](GANTI-NAMA-FILE-5.png)
+![Harga tidak valid ditolak](NAMA-FILE-5.png)
 
 ## Teknologi
 
